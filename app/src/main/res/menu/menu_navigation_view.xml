@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mNavAddCloud"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/nav_add_cloud"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mNavExplorer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_explorer" />
+        <item
+            android:id="@+id/mNavAllFiles"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_all_files" />
+    </group>
+</menu>

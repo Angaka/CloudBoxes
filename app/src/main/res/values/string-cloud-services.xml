@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dropbox -->
+    <string name="dropbox">Dropbox</string>
+    <string name="dropbox_api_key">yoq9g2ksjh1wh3j</string>
+    <string name="dropbox_api_secret">35b009s4btyrpzq</string>
+
+    <!-- Google Drive -->
+    <string name="google_drive">Google Drive</string>
+</resources>

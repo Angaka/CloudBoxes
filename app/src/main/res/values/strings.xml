@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CloudBoxes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation View -->
+    <string name="nav_add_cloud">Add new cloud</string>
+    <string name="nav_explorer">Explorer</string>
+    <string name="nav_all_files">All files</string>
+
+    <!-- Add cloud -->
+    <string name="ac_choose_cloud">Choose a cloud service</string>
+</resources>
