@@ -10,6 +10,7 @@ import android.widget.BaseAdapter;
 import com.projects.tan.cloudboxes.R;
 import com.projects.tan.cloudboxes.models.Cloud;
 import com.projects.tan.cloudboxes.models.CloudFinder;
+import com.projects.tan.cloudboxes.networks.services.DropBoxService;
 import com.projects.tan.cloudboxes.views.adapters.items.CloudItemView;
 import com.projects.tan.cloudboxes.views.adapters.items.CloudItemView_;
 
@@ -40,8 +41,8 @@ public class AddCloudAdapter extends BaseAdapter {
     @AfterInject
     protected void initAdapter() {
         clouds = new ArrayList<>();
-        clouds.add(new Cloud(context.getString(R.string.dropbox), R.drawable.ic_dropbox));
-        clouds.add(new Cloud(context.getString(R.string.google_drive), R.drawable.ic_google_drive));
+        clouds.add(new Cloud(context.getString(R.string.dropbox), R.drawable.ic_dropbox, new DropBoxService()));
+        clouds.add(new Cloud(context.getString(R.string.google_drive), R.drawable.ic_google_drive, new DropBoxService()));
     }
 
     @Override
